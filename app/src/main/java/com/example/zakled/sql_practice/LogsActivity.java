@@ -20,7 +20,6 @@ public class LogsActivity extends AppCompatActivity {
         MyDatabaseHelper myDBHelper = new MyDatabaseHelper(this);
 
 
-
         final ArrayList<Food> itemsList = myDBHelper.getFoods();
 
         //you can add service like this from db
